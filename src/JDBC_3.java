@@ -1,3 +1,5 @@
+//inserting data into the table
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.*;
@@ -18,8 +20,10 @@ public class JDBC_3 {
             PreparedStatement pstmt = con.prepareStatement(q);
 //            pstmt.setString(1,"Satish");
 //            pstmt.setString(2, "Mumbai");
-//            pstmt.setString(1,"Sonu");
-//            pstmt.setString(2, "HYD");
+
+            pstmt.setString(1,"Sonu");
+            pstmt.setString(2, "HYD");
+
             pstmt.setString(1,"Vignesh");
             pstmt.setString(2, "Pune");
             pstmt.executeUpdate();

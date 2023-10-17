@@ -1,3 +1,5 @@
+//Creating a connection
+
 import java.sql.DriverManager;
 import java.sql.*;
 

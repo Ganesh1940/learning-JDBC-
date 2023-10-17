@@ -1,3 +1,5 @@
+//Creating a table in database
+
 import java.sql.DriverManager;
 import java.sql.*;
 
